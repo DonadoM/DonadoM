@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @DonadoM
-- 👀 I’m interested in forntend and usually backend
+- 👀 I’m interested in frontend and usually backend
 - 🌱 I’m currently learning new techonolgys, as NPM, NODE and PHP
 - 💞️ I’m looking to collaborate on projects
 - 📫 How to reach me mau.donado.canedo@gmail.com

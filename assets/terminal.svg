@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="490" viewBox="0 0 860 490" role="img" aria-label="Terminal: Mauricio Donado, full-stack developer">
+<style>
+text { font-family: "JetBrains Mono","Fira Code","SF Mono",Menlo,Consolas,"DejaVu Sans Mono",monospace; font-size: 15px; white-space: pre; }
+.ln { opacity: 0; animation: show 0.01s forwards; }
+.type { animation-name: show, type; animation-fill-mode: forwards, forwards; }
+.cursor { animation: show 0.01s forwards, blink 1s step-end infinite; }
+@keyframes show { to { opacity: 1; } }
+@keyframes type { from { transform: translateX(0); } to { transform: translateX(var(--d)); } }
+@keyframes blink { 50% { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .ln, .type { animation: none; opacity: 1; } .type { opacity: 0; } }
+</style>
+<rect width="860" height="490" rx="10" fill="#1a1b26"/>
+<rect width="860" height="40" rx="10" fill="#16161e"/><rect y="30" width="860" height="10" fill="#16161e"/>
+<circle cx="24" cy="20" r="6" fill="#ff5f56"/><circle cx="44" cy="20" r="6" fill="#ffbd2e"/><circle cx="64" cy="20" r="6" fill="#27c93f"/>
+<text x="430.0" y="25" text-anchor="middle" fill="#565f89" style="font-size:13px">mauricio@donadom: ~ — zsh</text>
+<g xml:space="preserve">
+<text x="22.0" y="62" class="ln" style="animation-delay:0.40s"><tspan fill="#9ece6a">mauricio@donadom</tspan><tspan fill="#c0caf5">:</tspan><tspan fill="#7aa2f7">~</tspan><tspan fill="#c0caf5">$ </tspan></text>
+<text x="208.0" y="62" class="ln" style="animation-delay:0.40s"><tspan fill="#c0caf5">whoami</tspan></text>
+<rect class="ln type" x="208.0" y="47" width="74.4" height="22" fill="#1a1b26" style="--d:65.1px;animation-delay:0.40s,0.40s;animation-duration:0.01s,0.42s;animation-timing-function:linear,steps(7,end)"/>
+<text x="22.0" y="84" class="ln" style="animation-delay:1.42s"><tspan fill="#7dcfff">Mauricio Donado</tspan><tspan fill="#c0caf5"> — full-stack developer</tspan></text>
+<text x="22.0" y="106" class="ln" style="animation-delay:1.84s"><tspan fill="#9ece6a">mauricio@donadom</tspan><tspan fill="#c0caf5">:</tspan><tspan fill="#7aa2f7">~</tspan><tspan fill="#c0caf5">$ </tspan></text>
+<text x="208.0" y="106" class="ln" style="animation-delay:1.84s"><tspan fill="#c0caf5">neofetch</tspan></text>
+<rect class="ln type" x="208.0" y="91" width="93.0" height="22" fill="#1a1b26" style="--d:83.7px;animation-delay:1.84s,1.84s;animation-duration:0.01s,0.56s;animation-timing-function:linear,steps(9,end)"/>
+<text x="22.0" y="128" class="ln" style="animation-delay:3.00s"><tspan fill="#7dcfff">    .--.     </tspan></text>
+<text x="152.9" y="128" class="ln" style="animation-delay:3.00s"><tspan fill="#9ece6a">mauricio</tspan><tspan fill="#c0caf5">@</tspan><tspan fill="#9ece6a">donadom</tspan></text>
+<text x="22.0" y="150" class="ln" style="animation-delay:3.08s"><tspan fill="#7dcfff">   |o_o |    </tspan></text>
+<text x="152.9" y="150" class="ln" style="animation-delay:3.08s"><tspan fill="#565f89">----------------</tspan></text>
+<text x="22.0" y="172" class="ln" style="animation-delay:3.16s"><tspan fill="#7dcfff">   |:_/ |    </tspan></text>
+<text x="152.9" y="172" class="ln" style="animation-delay:3.16s"><tspan fill="#e0af68">Role</tspan><tspan fill="#c0caf5">:     Full-Stack Developer</tspan></text>
+<text x="22.0" y="194" class="ln" style="animation-delay:3.24s"><tspan fill="#7dcfff">  //   \ \   </tspan></text>
+<text x="152.9" y="194" class="ln" style="animation-delay:3.24s"><tspan fill="#e0af68">Backend</tspan><tspan fill="#c0caf5">:  Python · FastAPI · PostgreSQL</tspan></text>
+<text x="22.0" y="216" class="ln" style="animation-delay:3.32s"><tspan fill="#7dcfff"> (|     | )  </tspan></text>
+<text x="152.9" y="216" class="ln" style="animation-delay:3.32s"><tspan fill="#e0af68">Frontend</tspan><tspan fill="#c0caf5">: React · TypeScript · Vite</tspan></text>
+<text x="22.0" y="238" class="ln" style="animation-delay:3.40s"><tspan fill="#7dcfff">/'\_   _/`\  </tspan></text>
+<text x="152.9" y="238" class="ln" style="animation-delay:3.40s"><tspan fill="#e0af68">Mobile</tspan><tspan fill="#c0caf5">:   React Native · Expo</tspan></text>
+<text x="22.0" y="260" class="ln" style="animation-delay:3.48s"><tspan fill="#7dcfff">\___)=(___/  </tspan></text>
+<text x="152.9" y="260" class="ln" style="animation-delay:3.48s"><tspan fill="#e0af68">Infra</tspan><tspan fill="#c0caf5">:    Docker · AWS · GitHub Actions</tspan></text>
+<text x="152.9" y="282" class="ln" style="animation-delay:3.56s"><tspan fill="#e0af68">Arch</tspan><tspan fill="#c0caf5">:     Clean · Hexagonal · Screaming</tspan></text>
+<text x="152.9" y="304" class="ln" style="animation-delay:3.64s"><tspan fill="#e0af68">Shell</tspan><tspan fill="#c0caf5">:    zsh + tmux + LazyVim</tspan></text>
+<text x="152.9" y="326" class="ln" style="animation-delay:3.72s"><tspan fill="#e0af68">Location</tspan><tspan fill="#c0caf5">: Colombia</tspan></text>
+<rect class="ln" x="152.9" y="356" width="27.9" height="17" fill="#565f89" style="animation-delay:3.88s"/>
+<rect class="ln" x="180.8" y="356" width="27.9" height="17" fill="#f7768e" style="animation-delay:3.88s"/>
+<rect class="ln" x="208.7" y="356" width="27.9" height="17" fill="#9ece6a" style="animation-delay:3.88s"/>
+<rect class="ln" x="236.6" y="356" width="27.9" height="17" fill="#e0af68" style="animation-delay:3.88s"/>
+<rect class="ln" x="264.5" y="356" width="27.9" height="17" fill="#7aa2f7" style="animation-delay:3.88s"/>
+<rect class="ln" x="292.4" y="356" width="27.9" height="17" fill="#bb9af7" style="animation-delay:3.88s"/>
+<rect class="ln" x="320.3" y="356" width="27.9" height="17" fill="#7dcfff" style="animation-delay:3.88s"/>
+<rect class="ln" x="348.2" y="356" width="27.9" height="17" fill="#c0caf5" style="animation-delay:3.88s"/>
+<text x="22.0" y="392" class="ln" style="animation-delay:4.36s"><tspan fill="#9ece6a">mauricio@donadom</tspan><tspan fill="#c0caf5">:</tspan><tspan fill="#7aa2f7">~</tspan><tspan fill="#c0caf5">$ </tspan></text>
+<text x="208.0" y="392" class="ln" style="animation-delay:4.36s"><tspan fill="#c0caf5">cat ~/.focus</tspan></text>
+<rect class="ln type" x="208.0" y="377" width="130.2" height="22" fill="#1a1b26" style="--d:120.9px;animation-delay:4.36s,4.36s;animation-duration:0.01s,0.84s;animation-timing-function:linear,steps(13,end)"/>
+<text x="22.0" y="414" class="ln" style="animation-delay:5.80s"><tspan fill="#bb9af7">&gt; </tspan><tspan fill="#c0caf5">clean architecture, testing &amp; real-time systems</tspan></text>
+<text x="22.0" y="436" class="ln" style="animation-delay:5.92s"><tspan fill="#bb9af7">&gt; </tspan><tspan fill="#c0caf5">open to collaborate on interesting projects</tspan></text>
+<text x="22.0" y="458" class="ln" style="animation-delay:6.34s"><tspan fill="#9ece6a">mauricio@donadom</tspan><tspan fill="#c0caf5">:</tspan><tspan fill="#7aa2f7">~</tspan><tspan fill="#c0caf5">$ </tspan></text>
+<rect class="ln cursor" x="208.0" y="445" width="9.3" height="17" fill="#c0caf5" style="animation-delay:6.34s,6.34s"/>
+</g>
+</svg>
